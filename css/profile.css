@@ -1,0 +1,34 @@
+.profile_title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 36px;
+}
+.profile_title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  border-bottom: 1px solid black;
+  margin: 20px 0px;
+}
+
+.main_aboutMe__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_aboutMe__column {
+  display: block;
+}
+
+.main_aboutMe__title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 36px;
+  color: #3498db;
+}
+
+.main_aboutMe__subject {
+  margin-bottom: 10px;
+  font-size: 36px;
+}

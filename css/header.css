@@ -1,4 +1,14 @@
 .header {
   box-shadow: 0 18px 36px -18px rgba(0, 0, 0, 0.3),
     0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header_column {
+  margin: 10px;
+  font-size: 24px;
+  color: black;
+  text-decoration: underline;
 }
